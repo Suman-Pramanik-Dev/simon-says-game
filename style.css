@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+html{
+    height: 100%;
+}
+
+.box-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 10px;
+
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.purple{
+background-color: #819ff9;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.game-flash{
+
+    background-color: white;
+}
+
+.user-flash{
+
+    background-color: green;
+}
+
+.body-color-Change{
+
+    background-color: red;
+
+
+}
+
+
+
+footer{
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+}
